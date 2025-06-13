@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -27,13 +26,12 @@
         android:gravity="center"
         android:layout_marginBottom="24dp" />
 
-    <androidx.cardview.widget.CardView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_marginBottom="24dp"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp">
+        android:background="@drawable/widget_background">
 
         <ImageView
             android:id="@+id/preview_image"
@@ -42,7 +40,7 @@
             android:scaleType="centerCrop"
             android:contentDescription="@string/widget_description" />
 
-    </androidx.cardview.widget.CardView>
+    </FrameLayout>
 
     <Button
         android:id="@+id/refresh_button"

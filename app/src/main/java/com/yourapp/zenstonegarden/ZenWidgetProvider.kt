@@ -81,7 +81,7 @@ class ZenWidgetProvider : AppWidgetProvider() {
             .setRequiresBatteryNotLow(true)
             .build()
         
-        val workRequest = PeriodicWorkRequestBuilder<ZenWidgetWorker>(15, TimeUnit.MINUTES)
+        val workRequest = PeriodicWorkRequestBuilder<ZenWidgetWorker>(1, TimeUnit.MINUTES)
             .setConstraints(constraints)
             .addTag(WORK_TAG)
             .build()
