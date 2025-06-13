@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zen_primary">#6D4C41</color>
+    <color name="zen_primary_variant">#5D4037</color>
+    <color name="zen_on_primary">#FFFFFF</color>
+    <color name="zen_secondary">#A1887F</color>
+    <color name="zen_secondary_variant">#8D6E63</color>
+    <color name="zen_on_secondary">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="morning_bg">#FFFFFFFF</color>
+    <color name="evening_bg">#FFFFE0B2</color>
+    <color name="night_bg">#FF111133</color>
+</resources>

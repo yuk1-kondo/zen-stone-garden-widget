@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ZenStoneGarden" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/zen_primary</item>
+        <item name="colorPrimaryVariant">@color/zen_primary_variant</item>
+        <item name="colorOnPrimary">@color/zen_on_primary</item>
+        <item name="colorSecondary">@color/zen_secondary</item>
+        <item name="colorSecondaryVariant">@color/zen_secondary_variant</item>
+        <item name="colorOnSecondary">@color/zen_on_secondary</item>
+    </style>
+</resources>

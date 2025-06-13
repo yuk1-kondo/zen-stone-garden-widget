@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zen Stone Garden</string>
+    <string name="widget_description">A peaceful zen stone garden with rippling water effects</string>
+    <string name="widget_name">Zen Garden</string>
+    <string name="app_description">Experience the tranquility of a Japanese zen stone garden on your home screen. Watch as gentle ripples flow across the serene landscape, bringing peace to your daily routine.</string>
+    <string name="refresh_preview">Refresh Preview</string>
+    <string name="add_widget">Add Widget to Home Screen</string>
+</resources>
